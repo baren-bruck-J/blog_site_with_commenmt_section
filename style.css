@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgba(210, 107, 145, 0.084);
+    color: #282828;
+}
+
+/* Header */
+header {
+    background: rgba(230, 84, 84, 0.85);
+    color: #141414;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main container */
+.container {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 10px;
+    background: rgba(193, 168, 174, 0.699);
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(88, 87, 87, 0.2);
+}
+
+/* Blog post box */
+.post {
+    padding: 15px;
+    border-radius: 30px;
+    background: #d6395999;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Comments section */
+.comments h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Individual comment */
+.comment {
+    background: #f6f6f6;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 4px solid #333;
+    border-radius: 3px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.comment button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    background: rgb(239, 55, 55);
+    color: #fff;
+    padding: 2px 6px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.comment button:hover {
+    background: #c50000;
+}
+
+/* Form inputs */
+form input,
+form textarea {
+    width: 97%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #bf5e5e;
+    font-size: 14px;
+}
+
+/* Input focus effect */
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border: 1px solid #327aed;
+    box-shadow: 0 0 5px rgba(50, 122, 237, 0.5);
+}
+
+/* Center button div */
+.center {
+    text-align: center;
+}
+
+/* Submit button */
+form button {
+    padding: 10px 15px;
+    border: none;
+    background: #327aed;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #0253af;
+}
+
+/* Comment list scroll */
+#commentList {
+    max-height: 300px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #8e8e8e96;
+    color: white;
+}

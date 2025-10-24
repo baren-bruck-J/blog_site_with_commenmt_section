@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirchi Blogs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mirchi Blogs</h1>
+    </header>
+
+    <div class="container">
+        <div class="post">
+            <h2>Delicious Pasta Recipe!</h2>
+            <p>Welcome to my food blog! 🍝<br>
+                Today, I’m sharing my favorite pasta recipe.<br>
+                This creamy garlic pasta is quick, easy, and tastes amazing!
+            </p>
+        </div>
+
+        <div class="comments">
+            <h3><b>Comment Section</b></h3>
+
+            <form id="commentForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <textarea id="commentText" placeholder="Leave a Comment" required></textarea>
+                <div class="center">
+                    <button type="submit">Post Comment</button>
+                </div>
+            </form>
+
+            <div id="commentList"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Mirchi Blogs | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
